@@ -20,6 +20,7 @@ import shop.dao.CustomerDAO;
 import shop.dao.CustomerDAOImpl;
 import shop.dao.ProductDAO;
 import shop.dao.ProductDAOImpl;
+import shop.service.AccountService;
 
 
 @Configuration
@@ -60,6 +61,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 		AccountDAO dao = new AccountDAOImpl(getDataSource());
 		return dao;
 	}
+	
 	
 	@Bean
 	public BrandDAO getBrandDAO() {

@@ -51,7 +51,7 @@
 			</div>
 			<div class="account" style="margin-left: 15px; ; margin-top: 5px">
 				<a href="login" class="fa fa-user" style="font-size: 20px; color: black;">
-					${acc.username != '' ? acc.username : "Login"} </a>
+					${status != 'notlogin' ? acc.username : "Login"} </a>
 			</div>
 		</div>
 	</header>
