@@ -33,7 +33,7 @@ public class SpringMvcConfig implements WebMvcConfigurer {
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource  = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://db4free.net:3306/yokoshop");
+		dataSource.setUrl("jdbc:mysql://db4free.net:3306/yokoshop?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false");
 		dataSource.setUsername("yokoshop");
 		dataSource.setPassword("chuanh255");
 		return dataSource;
