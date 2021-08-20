@@ -67,7 +67,7 @@
 						<div class="item-image">
 							<img src="resources/images/${pro.img}" />
 							<div class="button item-button">
-								<a href="productDetail">Add to Cart</a> <a href="productDetail?id=${pro.id}">Quick View</a>
+								<a href="productDetail?id=${pro.id}">Add to Cart</a> <a href="productDetail?id=${pro.id}">Quick View</a>
 							</div>
 						</div>
 						<div class="item-title">
